@@ -15,9 +15,9 @@ This project is created as a part of a process of obtaining a BEng degree (Bache
 Project is created with:
 * Flutter - version 2.5
 * Dart - version 2.14
-* C - standard C17
+* C++ - standard C17
 * Flutter plugins (plugins and their versions listed in [pubspec.yaml](android_app/pubspec.yaml))
-* C libraries for ESP8266 (listed in [esp_code.ino](esp_code.ino))
+* C++ libraries for ESP8266 (listed in [esp_code.ino](esp_code.ino))
 
 ## Setup
 
