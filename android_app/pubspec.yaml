@@ -1,0 +1,138 @@
+name: led_alarm
+description: LED Alarm - smart lighting
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  permission_handler: ^8.2.2
+  get_it: ^7.2.0
+  flutter_bloc: ^7.3.0
+  equatable: ^2.0.3
+  flutter_secure_storage: ^4.2.0
+  fluttertoast: ^8.0.7
+  settings_ui: ^1.0.0
+  hive: ^2.0.4
+  hive_generator: ^1.1.0
+  http: ^0.13.4
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  google_nav_bar: ^5.0.5
+  numberpicker: ^2.1.1
+  faker: ^2.0.0
+  provider: ^6.0.0
+  flutter_colorpicker: ^0.6.0
+  uuid: 3.0.4
+  top_snackbar_flutter: ^1.0.1
+  flutter_conditional_rendering: ^2.0.0
+  flutter_native_splash: ^1.2.4
+  bloc_test: ^8.3.0
+  mocktail: ^0.1.4
+  mockito: ^5.0.16
+  json_serializable: ^5.0.2
+  build_runner: ^2.1.4
+  plugin_platform_interface: ^2.0.1
+  firebase_core: 1.7.0
+  firebase_database: ^8.0.0
+  firebase_auth: ^3.1.3
+  flutter_signin_button: 2.0.0
+  google_sign_in: ^5.1.1
+  shared_preferences: 2.0.8
+  flutter_mobx: ^2.0.2
+  mobx: ^2.0.5
+  catcher: ^0.6.8
+  flutter_intro: ^2.3.1
+  intro_slider: ^3.0.2
+  flutter_toggle_tab: ^1.1.7
+  alan_voice: ^3.0.0
+  nanoid: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+
+flutter_native_splash:
+  android: true
+  ios: false
+  web: true
+  color: "#698ddb"
+  color_dark: "#1F1F1F"
+  image: "assets/images/smart-bulb.png"
+  android_gravity: center
+  web_image_mode: center
+  fullscreen: true
+
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+  assets:
+    - assets/smart-bulb.png # This icon has been designed using resources from Flaticon.com
+    - assets/error.png # This screen has been created by abuanwar072
+    - assets/no_Connection.png # This screen has been created by abuanwar072
+    - assets/calendar.png # This cover has been designed using resources from Flaticon.com
+    - assets/notification.png # This cover has been designed using resources from Flaticon.com
+    - assets/smart-bulb.png
+    - assets/images/img.jpg
+    - assets/images/smart-bulb.png
+    - assets/images/lightbulb_gif_loop.gif
+    - assets/images/lightbulb_gif_noloop.gif
+    - assets/error.png
+    - assets/no_Connection.png
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
